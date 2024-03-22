@@ -27,18 +27,18 @@ Make sure first create a database called **mkulima**
 ```sql
 CREATE DATABASE mkulima;
 ```
-[Mkulima database.sql](The-Mkulima-DSS/Mkulima_database/Mkulima_database.sql) 
+**Mkulima_database.sql**
 This file creates the tables in the mkulima database to be used in the system.
 ## Data Manipulation Language
-1. [Inserting County data](The-Mkulima-DSS/Mkulima_database/Inserting_county.sql)
+1. **Inserting_county.sql**
 This file inserts data in the county table
-2. [Inserting Crop fertilizer data](The-Mkulima-DSS/Mkulima_database/Inserting_crop_fertilizer.sql)
+2. **Inserting_crop_fertilizer.sql**
 This file inserts data in the crop fertilizer table
-3. [Inserting Crops data](The-Mkulima-DSS/Mkulima_database/Inserting_crops.sql)
+3. **Inserting_crops.sql**
 This file inserts data in the crops table
-4. [Inserting Fertilizer data](The-Mkulima-DSS/Mkulima_database/Inserting_fertilizer.sql)
+4. **Inserting_fertilizer.sql**
 This file inserts data in the fertilizer table
-5. [Inserting Regions data](The-Mkulima-DSS/Mkulima_database/Inserting_regions.sql)
+5. **Inserting_regions.sql**
 This file inserts data in the regions table
-6. [Inserting Seeds data](The-Mkulima-DSS/Mkulima_database/Inserting_seeds.sql)
+6. **Inserting_seeds.sql**
 This file inserts data in the seeds table
