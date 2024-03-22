@@ -11,7 +11,7 @@ CREATE DATABASE mkulima;
 ```
 - Select the database mkulima from the list menu at the left of the page
 - move/click to import menu at the top menu of the page
-- Import the file [Mkulima database.sql](Mkulima_database.sql)
+- Import the file **Mkulima_database.sql**
 ---
 ## Insertion of data procedure
 - Run the server and start *Apache* and *mySql*
