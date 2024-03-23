@@ -1,21 +1,12 @@
-/* Before running this query's first create a database called mkulima
-The query command is 
-CREATE DATABASE `mkulima`;
-Note
-`` This are backticks and not single quotes
-*/
--- The query's below creates 8 tables namely
-/*
-Region
-County
-Crop
-Crop_fertilizer
-Fertilizer
-Users
-Seeds
-Crop_farm_procedure
-*/ 
-
+/**
+ * Mkulima_database.sql - Creates the tables and defines the associations
+ *
+ * IMPORTANT!!: Before running this query's first create a database called mkulima
+ * The query command is: CREATE DATABASE `mkulima`; note that these (``) are
+ * backticks and not single quotes ('').
+ * The query's below creates 8 tables namely: Region, County, Crop, Crop_fertilizer,
+ * Fertilizer, Users, Seeds and finally: Crop_farm_procedure
+ */
 CREATE TABLE IF NOT EXISTS `Region`(
     `Region_id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `Region_name` VARCHAR(255) NOT NULL

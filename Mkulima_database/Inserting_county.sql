@@ -1,7 +1,10 @@
--- Inserts data into county table
-/*Before inserting data into county table
-make sure that you first insert data into region table because this table has foreign region_id attribute key
-*/
+/**
+ * Inserting_county.sql - Inserts data into county table
+ *
+ * IMPORTANT!!: Before inserting data into county table, make sure that you first
+ * insert data into region table because this table has
+ * foreign region_id attribute key
+ */
 INSERT INTO county (County_id, County_name, Region_id, Min_temp, Max_temp, Avg_rainfall, Soil_type, Altitude)
 VALUES
 (1, 'homabay', 1, 16.00, 31.00, 1500.00, 'black cotton', 1131.00),

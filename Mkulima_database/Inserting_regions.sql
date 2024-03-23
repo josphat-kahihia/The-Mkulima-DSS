@@ -1,4 +1,7 @@
--- Inserts data into region table
+/**
+ * Inserting_regions.sql - Inserts data into region table
+ *
+ */
 INSERT INTO region (Region_id, Region_name)
 VALUES
 (1, 'nyanza'),

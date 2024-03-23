@@ -1,7 +1,10 @@
--- Inserts data into crop_fertilizer table
-/*Before Inserting data into this table
-Make sure you have inserted data into crop table because this table has foreign crop_id attribute key
-*/
+/**
+ * Inserting_crop_fertilizer.sql - Inserts data into crop_fertilizer table
+ * 
+ * IMPORTANT!!: Before Inserting data into this table, make sure that you have
+ * inserted data into crop table because this table has
+ * foreign crop_id attribute key
+ */
 INSERT INTO crop_fertilizer (Crop_fertilizer_id, First_phase, Second_phase, Third_phase, Crop_id)
 VALUES
 (1, 22, 21, 19, 1),

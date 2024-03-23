@@ -1,6 +1,8 @@
--- Inserts data into fertilizer table
-/*Before Inserting data into this table
-Make sure you have inserted data into crop table because this table has foreign crop_id attribute key
+/**
+ * Inserting_fertilizer.sql - Inserts data into fertilizer table
+ *
+ * IMPORTANT!!: Before Inserting data into this table, make sure you have inserted data
+ * into crop table because this table has foreign crop_id attribute key
 */
 INSERT INTO fertilizer (Fertilizer_id, Fertilizer_name)
 VALUES
