@@ -2,6 +2,7 @@
  * Inserting_crops.sql - Inserts data into crop table
  *
  */
+USE mkulima;
 INSERT INTO crop (Crop_id, Crop_name, Min_temp, Max_temp, Avg_rainfall)
 VALUES
 (1, 'maize', 10.00, 20.00, 400.00),

@@ -5,6 +5,7 @@
  * inserted data into crop table because this table 
  * has foreign crop_id attribute key
  */
+USE mkulima;
 INSERT INTO seeds (Seed_id, Seed_name, Crop_id, Distinct_characteristic)
 VALUES
 (1, 'H624', 1, 'round shape, 75-85 days maturity'),

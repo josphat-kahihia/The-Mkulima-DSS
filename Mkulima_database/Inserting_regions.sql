@@ -2,6 +2,7 @@
  * Inserting_regions.sql - Inserts data into region table
  *
  */
+USE mkulima;
 INSERT INTO region (Region_id, Region_name)
 VALUES
 (1, 'nyanza'),

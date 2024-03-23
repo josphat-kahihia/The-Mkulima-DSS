@@ -7,6 +7,7 @@
  * The query's below creates 8 tables namely: Region, County, Crop, Crop_fertilizer,
  * Fertilizer, Users, Seeds and finally: Crop_farm_procedure
  */
+USE mkulima;
 CREATE TABLE IF NOT EXISTS `Region`(
     `Region_id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `Region_name` VARCHAR(255) NOT NULL

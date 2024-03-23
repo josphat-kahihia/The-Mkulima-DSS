@@ -15,7 +15,7 @@
  * 6. Inserting_fertilizer.sql
  * 7. Inserting_crop_fertilizer.sql
  *
- * Last Updated: 23/03/2024 at 03:26 AM by Josphat Kahihia
+ * Last Updated: 23/03/2024 at 04:25 AM by Josphat Kahihia
  * Up to date: Yes[~] No[]
  */
 
@@ -28,6 +28,7 @@
  * The query's below creates 8 tables namely: Region, County, Crop, Crop_fertilizer,
  * Fertilizer, Users, Seeds and finally: Crop_farm_procedure
  */
+USE mkulima;
 CREATE TABLE IF NOT EXISTS `Region`(
     `Region_id` BIGINT NOT NULL AUTO_INCREMENT PRIMARY KEY,
     `Region_name` VARCHAR(255) NOT NULL
@@ -90,6 +91,7 @@ ADD FOREIGN KEY (`Crop_id`) REFERENCES Crop(`Crop_id`);
  * Inserting_regions.sql - Inserts data into region table
  *
  */
+USE mkulima;
 INSERT INTO region (Region_id, Region_name)
 VALUES
 (1, 'nyanza'),
@@ -107,6 +109,7 @@ VALUES
  * insert data into region table because this table has
  * foreign region_id attribute key
  */
+USE mkulima;
 INSERT INTO county (County_id, County_name, Region_id, Min_temp, Max_temp, Avg_rainfall, Soil_type, Altitude)
 VALUES
 (1, 'homabay', 1, 16.00, 31.00, 1500.00, 'black cotton', 1131.00),
@@ -160,6 +163,7 @@ VALUES
  * Inserting_crops.sql - Inserts data into crop table
  *
  */
+USE mkulima;
 INSERT INTO crop (Crop_id, Crop_name, Min_temp, Max_temp, Avg_rainfall)
 VALUES
 (1, 'maize', 10.00, 20.00, 400.00),
@@ -207,6 +211,7 @@ VALUES
  * inserted data into crop table because this table 
  * has foreign crop_id attribute key
  */
+USE mkulima;
 INSERT INTO seeds (Seed_id, Seed_name, Crop_id, Distinct_characteristic)
 VALUES
 (1, 'H624', 1, 'round shape, 75-85 days maturity'),
@@ -325,7 +330,8 @@ VALUES
  *
  * IMPORTANT!!: Before Inserting data into this table, make sure you have inserted data
  * into crop table because this table has foreign crop_id attribute key
-*/
+ */
+USE mkulima;
 INSERT INTO fertilizer (Fertilizer_id, Fertilizer_name)
 VALUES
 (1, 'Phosphate'),
@@ -366,6 +372,7 @@ VALUES
  * inserted data into crop table because this table has
  * foreign crop_id attribute key
  */
+USE mkulima;
 INSERT INTO crop_fertilizer (Crop_fertilizer_id, First_phase, Second_phase, Third_phase, Crop_id)
 VALUES
 (1, 22, 21, 19, 1),

@@ -5,6 +5,7 @@
  * inserted data into crop table because this table has
  * foreign crop_id attribute key
  */
+USE mkulima;
 INSERT INTO crop_fertilizer (Crop_fertilizer_id, First_phase, Second_phase, Third_phase, Crop_id)
 VALUES
 (1, 22, 21, 19, 1),

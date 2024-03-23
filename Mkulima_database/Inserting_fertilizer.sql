@@ -4,6 +4,7 @@
  * IMPORTANT!!: Before Inserting data into this table, make sure you have inserted data
  * into crop table because this table has foreign crop_id attribute key
 */
+USE mkulima;
 INSERT INTO fertilizer (Fertilizer_id, Fertilizer_name)
 VALUES
 (1, 'Phosphate'),
