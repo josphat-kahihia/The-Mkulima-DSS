@@ -13,7 +13,7 @@ CREATE DATABASE mkulima;
 - move/click to import menu at the top menu of the page
 - Import the file **Mkulima_database.sql**
 ---
-## Insertion of data procedure
+## Insertion of data procedure (manually)
 - Run the XAMPP server and start *Apache* and *mySql*
 - Open your favorite browser and search *localhost*
 - Move/click to phpMyAdmin page
@@ -21,6 +21,19 @@ CREATE DATABASE mkulima;
 - select the table you want to insert data, for example table called *region*
 - move/click to import menu at the top menu of the page
 - Import the file [Inserting Regions data](Inserting_regions.sql)
+
+## Insertion of data procedure (using One_script_for_all_py.sql)
+- In a terminal of your choice, run:
+```python
+python update_Osfa.py
+```
+- Enter your name as prompted
+- Use the One_script_for_all_py.sql (note the '_py' extension, as there are two)\
+ import SQL using the script
+
+## Insertion of data procedure (using One_script_for_all.sql)
+- NOTE: Read instructions in the first comment block first!
+- Use the One_script_for_all.sql to import SQL using the script
 ---
 ## Data Definition Language
 Make sure to first create a database called **mkulima**
