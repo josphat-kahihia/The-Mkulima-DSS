@@ -15,6 +15,9 @@ The user inputs their county, and the system recommends the top three choices\
 ### How to run the system locally
 - Git clone this project into XAMPP (or WAMPP) using the following command:
 - (git clone https://github.com/josphat-kahihia/The-Mkulima-DSS)
+- Populate the database using data found in mkulima_database using the steps\
+ provided in the README of the mkulima_database. (You'll be required to use\
+ php myadmin to do the steps there.)
 - Open the index.html (or homepage.html) file, and use the web interface to\
  proceed.
 
