@@ -14,7 +14,7 @@ CREATE DATABASE mkulima;
 - Import the file **Mkulima_database.sql**
 ---
 ## Insertion of data procedure
-- Run the server and start *Apache* and *mySql*
+- Run the XAMPP server and start *Apache* and *mySql*
 - Open your favorite browser and search *localhost*
 - Move/click to phpMyAdmin page
 - Select the database mkulima from the list menu at the left of the page
@@ -23,7 +23,7 @@ CREATE DATABASE mkulima;
 - Import the file [Inserting Regions data](Inserting_regions.sql)
 ---
 ## Data Definition Language
-Make sure first create a database called **mkulima**
+Make sure to first create a database called **mkulima**
 ```sql
 CREATE DATABASE mkulima;
 ```
