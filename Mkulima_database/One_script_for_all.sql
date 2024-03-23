@@ -13,7 +13,7 @@
  * 4. Inserting_crops.sql
  * 5. Inserting_seeds.sql
  * 6. Inserting_fertilizer.sql
- * 7. Inserting_croop_fertilizer.sql
+ * 7. Inserting_crop_fertilizer.sql
  *
  * Last Updated: 23/03/2024 at 03:26 AM by Josphat Kahihia
  * Up to date: Yes[~] No[]
