@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Display</title>
+</head>
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    }
+
+    .container{
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(display.jpg); 
+    background-size: cover;
+    background-position: center;
+    padding: 10px 8%;
+    }
+
+    .content h1{
+        color: #8b5d5d;
+        font-weight: bolder;
+        text-align: center;
+        line-height: 50px;
+        margin-bottom: 25px;
+    }
+
+    .content-table{
+        border-collapse: collapse;
+        margin: 25px 0;
+        font-size: 0.9em;
+        min-width: 400px;
+        border-radius: 5px 5px 0 0;
+        overflow: hidden;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    }
+
+    .content-table thead tr{
+        background-color: #009879;
+        color: #fff;
+        text-align: left;
+        font-weight: bold;
+    }
+
+    .content-table tr,
+    .content-table td{
+        color: #fff;
+        padding: 12px 15px;
+    }
+
+    .content-table tbody tr{
+        border-bottom: 1px solid #ddd;
+    }
+
+    .content-table tbody tr:nth-of-type(even){
+        background-color: #f3f3f3;
+    }
+
+    .content-table tbody tr:last-of-type{
+        border-bottom: 2px solid #009879;
+    }
+
+    .content-table tbody tr.active-row{
+        font-weight: bold;
+        color: #009879;
+    }
+
+    .image-container {
+            position: absolute;
+            top: 0;
+            right: 0;
+    }
+</style>
+
+<body>
+    <div class="container">
+    <div class="content">
+        <h1>#Crop selected title#</h1>
+
+        <table class="content-table">
+            <thead>
+                <tr>
+                    <th>Conditions</th>
+                    <th>Data</th> 
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Rainfall</td>
+                    <td>3000mm</td>
+                </tr>
+                <tr class="active-row">
+                    <td>Rainfall</td>
+                    <td>3000mm</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <h2>Recommended alternatives:</h2><br><br>
+
+        <div class="image-container">
+            <img src="cropimage.jpg" alt="Description of Image" width="500" height="600">
+        </div>
+
+        <h3>About Crop</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deleniti architecto quam voluptatum quas, explicabo ea a. Quia atque ipsum temporibus vero? Excepturi accusamus ut, architecto animi praesentium consequuntur ab.</p>
+        <br>
+
+        <h4>Steps to plant</h4>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deleniti architecto quam voluptatum quas, explicabo ea a. Quia atque ipsum temporibus vero? Excepturi accusamus ut, architecto animi praesentium consequuntur ab.</p>
+        <br>
+
+        <h5>Recommendation/Best practices</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maxime deleniti architecto quam voluptatum quas, explicabo ea a. Quia atque ipsum temporibus vero? Excepturi accusamus ut, architecto animi praesentium consequuntur ab.</p>
+        <br>
+    </div>
+    </div>
+</body>
+</html>
